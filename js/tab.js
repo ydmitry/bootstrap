@@ -25,7 +25,7 @@
 
   Tab.prototype.show = function () {
     var $this    = this.element
-    var $ul      = $this.closest('ul:not(.dropdown-menu)')
+    var $ul      = $this.closest('ul')
     var selector = $this.data('target')
 
     if (!selector) {
